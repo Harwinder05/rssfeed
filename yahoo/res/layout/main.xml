@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<ImageView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:src="@drawable/yahoonews"
+	android:scaleType="fitXY"/>
+ 	
+ <ListView
+ 	android:id="@+id/RssList"
+ 	android:layout_width="fill_parent"
+ 	android:layout_height="380px"
+ 	/>
+ <LinearLayout
+ 	android:orientation="horizontal"
+ 	android:layout_height="40px"
+ 	android:layout_width="fill_parent"
+ 	android:gravity="center_horizontal"
+ 	android:background="#ffffff">
+ 	<Button
+ 		android:id="@+id/topStories"
+ 		android:layout_width="78px"
+ 		android:layout_height="fill_parent"
+ 		android:background="@drawable/selector"
+ 		android:text="Top Stories"/>
+ 
+ 	<Button
+ 		android:id="@+id/india"
+ 		android:layout_width="72px"
+ 		android:layout_height="fill_parent"
+ 		android:background="@drawable/selector"
+ 		android:text="India"/>
+ 	
+ 	<Button
+ 		android:id="@+id/sports"
+ 		android:layout_width="72px"
+ 		android:layout_height="fill_parent"
+ 		android:background="@drawable/selector"
+ 		android:text="Sports"/>
+ 	<Button
+ 		android:id="@+id/technology"
+ 		android:layout_width="78px"
+ 		android:layout_height="fill_parent"
+ 		android:background="@drawable/selector"
+ 		android:text="Technology"/>
+ 	</LinearLayout>
+</LinearLayout>

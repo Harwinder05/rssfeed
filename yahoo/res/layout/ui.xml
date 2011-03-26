@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    >
+   
+<LinearLayout android:layout_width="300px"
+			android:layout_height="350px"
+			android:background="@drawable/shape"
+			android:gravity="center"
+			android:layout_marginTop="30px"
+			android:layout_marginLeft="10px"
+			>
+			<LinearLayout
+			android:orientation="vertical"
+			 android:layout_width="300px"
+			android:layout_height="350px"
+			android:background="@drawable/textback"
+			android:gravity="center_horizontal"
+			>
+				<TextView 
+					android:layout_marginTop="40px"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="Well come to Yahoo news application for being updated with top stories and latest news all over the world,sports and technology."
+					android:textColor="#000000"
+					android:layout_marginLeft="13px"/>
+					<TextView 
+					android:layout_marginTop="28px"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="Plz give a tap on start button"
+					android:layout_marginLeft="40px"
+					android:textColor="#000000"/>
+					
+					<Button
+						android:id="@+id/startbtn"
+						android:layout_marginTop="30px"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/startselector"/>
+			</LinearLayout>
+			</LinearLayout>
+			 <ImageView
+    	android:background="@drawable/yahoologo"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="33px"
+    	/>
+<LinearLayout 
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="40px"  
+	android:layout_alignParentBottom="true"
+	android:background="@drawable/imgres">
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px" 	
+		android:background="#8b8b83"/>
+		<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:orientation="horizontal"
+	android:gravity="center"
+	>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Design and developed by Sunny@DaMobile"
+		/>
+		
+	</LinearLayout>
+		</LinearLayout>
+	
+</RelativeLayout>
